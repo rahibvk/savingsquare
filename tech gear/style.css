@@ -2,7 +2,7 @@
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
-{
+* {
   --primary-color: #3498db;
 }
 
@@ -34,9 +34,9 @@ body {
   border: none;
 }
 
-/* .nav-link:hover {
+.nav-link:hover {
   color: #0a58ca;
-} */
+}
 
 p {
   font-size: 18px;
@@ -51,14 +51,14 @@ p {
   color: #fff;
 }
 
-/* .ionicons {
+.ionicons {
   color: #0a58ca;
   background-color: #f2f2f2;
   padding: 10px;
   height: 30px;
   width: 30px;
   margin-bottom: 12px;
-} */
+}
 
 .nav-tabs {
   border: none;
@@ -89,11 +89,11 @@ p {
   }
 
   .container {
-    padding: 0 100px;
+    padding: 0 15px;
   }
 }
 
-.accordion-button {
+.accordion-button:not(.collapsed) {
   color: #0a58ca;
   background-color: #e7e9f1;
 }
